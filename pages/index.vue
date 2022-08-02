@@ -1,5 +1,7 @@
 <template>
     <div>
-        <p>test</p>
+        <Hero />
+        <Steps />
+        <News />
     </div>
 </template>

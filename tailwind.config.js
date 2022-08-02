@@ -14,6 +14,10 @@ module.exports = {
       },
       colors: {
         'primary': '#ecbf32',
+        'discord': '#5865f2',
+        'facebook': '#4267b2',
+        'instagram': '#E1306C',
+        'youtube': '#FF0000'
       },
     }
 	},
