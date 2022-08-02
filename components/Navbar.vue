@@ -20,14 +20,14 @@
                         <NuxtLink to="/team">Echipa Administrativă</NuxtLink>
                     </li>
                     <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 before:hidden md:before:block">
-                        <a href="#">Wikipedia</a>
+                        <a href="https://wiki.ro-rp.ro/">Wikipedia</a>
                     </li>
                 </ul>
             </div>
             <div class="hidden xl:flex gap-6 text-lg">
                 <a href="#" class="btn-icon bg-white text-slate-800 outline-primary"><IconsMoon /></a>
-                <a href="#" class="btn bg-white text-slate-800 outline-primary font-medium">Autentificare</a>
-                <a href="#" class="btn bg-primary text-slate-800 outline-primary font-medium">Înregistrare</a>
+                <a href="https://ucp.ro-rp.ro/login" class="btn bg-white text-slate-800 outline-primary font-medium">Autentificare</a>
+                <a href="https://ucp.ro-rp.ro/register" class="btn bg-primary text-slate-800 outline-primary font-medium">Înregistrare</a>
             </div>
             <button class="flex md:hidden btn-mobile z-10 " @click="this.menu = !this.menu;">
                 <img v-if="!menu" src="@/assets/media/icons/menu-right.svg" alt="Open Menu">

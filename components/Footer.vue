@@ -6,10 +6,10 @@
                     <img src="@/assets/media/logos/logo-1.png" width="40" alt="Romania Roleplay">
                 </div>
                 <p class="leading-3 mt-4">Copyright 2011 - 2022 © România Roleplay</p>
-                <a href="#" class="contact font-light text-sm text-slate-800">HOME OF ROLEPLAY S.R.L. J40/19017/2021</a>
+                <a href="mailto:contact@ro-rp.ro" class="contact font-light text-sm text-slate-800">HOME OF ROLEPLAY S.R.L. J40/19017/2021</a>
                 <div class="flex flex-row gap-4">
-                    <a href="#" class="btn-sm bg-primary text-sm text-slate-800 outline-primary w-max mt-5">Înregistrare</a>
-                    <a href="#" class="btn-sm bg-white text-sm text-slate-800 outline-primary w-max mt-5">Autentificare</a>
+                    <a href="https://ucp.ro-rp.ro/register" class="btn-sm bg-primary text-sm text-slate-800 outline-primary w-max mt-5">Înregistrare</a>
+                    <a href="https://ucp.ro-rp.ro/login" class="btn-sm bg-white text-sm text-slate-800 outline-primary w-max mt-5">Autentificare</a>
                 </div>
             </div>
             <div class="footer-content flex flex-col md:flex-row gap-10 md:gap-[200px] text-slate-700 mt-10 2xl:mt-0">
