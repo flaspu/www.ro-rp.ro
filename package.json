@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "nuxt": "3.0.0-rc.6",
+    "postcss": "^8.4.14",
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.1.7"
+  }
+}
