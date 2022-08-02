@@ -13,4 +13,7 @@ export default defineNuxtConfig({
 			}
 		}
 	},
+	loading: {
+		color: '#000',
+	},
 })

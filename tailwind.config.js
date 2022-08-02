@@ -17,7 +17,17 @@ module.exports = {
         'discord': '#5865f2',
         'facebook': '#4267b2',
         'instagram': '#E1306C',
-        'youtube': '#FF0000'
+        'youtube': '#FF0000',
+
+        // roles
+        'admin': '#70ab77',
+        'leadership': '#ff9600',
+        'tester': '#992d22',
+        'game-dev': '#516ef0',
+        'senior-dev': '#516ef0',
+        'lead-dev': '#ff0000',
+        'pm': '#8b786b',
+        'fm': '#206694',
       },
     }
 	},

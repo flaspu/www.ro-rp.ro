@@ -10,14 +10,14 @@
                 <ul class="flex flex-col md:flex-row gap-8 lg:gap-[80px] text-lg font-semibold absolute md:relative md:bg-transparent bg-white pt-[160px] pb-[60px] md:py-0 px-10 top-0 left-0 w-full justify-end xl:justify-start"
                     :class="{ 'md:flex hidden': !menu }"
                 >
-                    <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 active before:hidden md:before:block">
-                        <a href="#">Acasă</a>
+                    <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 before:hidden md:before:block" :class="{ 'active': route.path == '/' }">
+                        <NuxtLink to="/">Acasă</NuxtLink>
                     </li>
                     <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 before:hidden md:before:block">
-                        <a href="#">Forum</a>
+                        <a href="https://ro-rp.ro/forum">Forum</a>
                     </li>
-                    <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 before:hidden md:before:block">
-                        <a href="#">Echipa Administrativă</a>
+                    <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 before:hidden md:before:block" :class="{ 'active': route.path == '/team' }">
+                        <NuxtLink to="/team">Echipa Administrativă</NuxtLink>
                     </li>
                     <li class="text-slate-500 hover:text-slate-600 ease-in-out duration-300 before:hidden md:before:block">
                         <a href="#">Wikipedia</a>
@@ -36,12 +36,9 @@
         </div>
     </div>
 </template>
-<script>
-export default {
-    data () {
-        return {
-            menu: false,
-        }
-    }
-}
+<script setup>
+
+const route = useRoute();
+let menu = false;
+
 </script>

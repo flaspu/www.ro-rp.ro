@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-auto">
         <div class="footer font-poppins flex flex-col 2xl:flex-row justify-between py-10 px-[30px] xl:px-0">
             <div class="branding flex flex-col gap-2 justify-start">
                 <div class="flex gap-4 flex-col">
@@ -20,13 +20,13 @@
                         </p>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Termeni si confidentialitate</a>
+                        <a href="https://ucp.ro-rp.ro/legal/terms">Termeni și confidențialitate</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Politica privind fisierele cookies</a>
+                        <a href="https://ucp.ro-rp.ro/legal/cookies">Politica privind fișierele cookies</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">A.N.P.C.</a>
+                        <a href="https://anpc.ro/">A.N.P.C.</a>
                     </li>
                 </ul>
                 <ul class="flex flex-col gap-4">
@@ -36,16 +36,16 @@
                         </p>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Forums</a>
+                        <a href="https://ro-rp.ro/forum/">Forums</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Wikipedia</a>
+                        <a href="https://wiki.ro-rp.ro/">Wikipedia</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">User Control Panel</a>
+                        <a href="https://ucp.ro-rp.ro/">User Control Panel</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Discord</a>
+                        <a href="https://ro-rp.ro/discord/">Discord</a>
                     </li>
                 </ul>
                 <ul class="flex flex-col gap-4">
@@ -55,16 +55,16 @@
                         </p>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Los Santos Police Site</a>
+                        <a href="https://lspd.ro-rp.ro/">Los Santos Police Site</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Los Santos Fire Site</a>
+                        <a href="https://lsfd.ro-rp.ro/">Los Santos Fire Site</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Los Santos Government Site</a>
+                        <a href="https://lsgov.ro-rp.ro/">Los Santos Government Site</a>
                     </li>
                     <li class="hover:text-black ease-in-out duration-300">
-                        <a href="#">Judiciary San Andreas Site</a>
+                        <a href="https://jsa.ro-rp.ro/">Judiciary San Andreas Site</a>
                     </li>
                 </ul>
             </div>
