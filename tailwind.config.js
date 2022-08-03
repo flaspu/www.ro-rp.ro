@@ -2,6 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  ssr: false,
   content: [
     './components/*.{ts,vue}',
     './pages/*.{ts,vue}',

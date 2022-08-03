@@ -1,8 +1,8 @@
 <template>
-    <div class="container mx-auto font-poppins">
+    <div class="container mx-auto font-poppins px-[30px] xl:px-0">
         <div v-for="(section, key) in Object.keys(team)" :key="key">
             <h2 class="text-4xl font-semibold text-[#333] my-10">{{ section }}</h2>
-            <div class="grid grid-cols-4 gap-10">
+            <div class="flex flex-col md:grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10">
                 <LoadingMembers v-if="members.length == 0" />
                 <div class="member shadow-lg flex flex-row p-4 gap-4" v-for="(member, key) in team[section]" :key="key" v-else>
                     <div class="flex flex-row">
