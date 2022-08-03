@@ -5,7 +5,7 @@
             <div class="step shadow-lg flex flex-col xl:flex-row items-center xl:h-[200px] h-auto p-10 xl:p-0" style="background-image: url('/_nuxt/assets/media/backgrounds/buy-game.png');">
                 <div class="flex items-center justify-between flex-col xl:flex-row">
                     <div class="icon mx-20 mt-4 xl:mt-0">
-                        <font-awesome-icon :icon="['fa', 'shopping-basket']" />
+                        <fai :icon="['fa', 'shopping-basket']" />
                     </div>
                     <div class="step-content text-white xl:w-[30vw] w-full my-10 xl:my-0">
                         <h2 class="font-semibold text-3xl">Achiziționarea jocului</h2>
@@ -21,7 +21,7 @@
             <div class="step shadow-lg flex flex-col xl:flex-row items-center xl:h-[200px] h-auto p-10 xl:p-0" style="background-image: url('/_nuxt/assets/media/backgrounds/download-client.png');">
                 <div class="flex items-center justify-between flex-col xl:flex-row">
                     <div class="icon mx-20 mt-4 xl:mt-0">
-                        <font-awesome-icon :icon="['fa', 'download']" />
+                        <fai :icon="['fa', 'download']" />
                     </div>
                     <div class="step-content text-white xl:w-[30vw] w-full my-10 xl:my-0">
                         <h2 class="font-semibold text-3xl">Descărcarea clientului</h2>
@@ -36,7 +36,7 @@
             <div class="step shadow-lg flex flex-col xl:flex-row items-center xl:h-[200px] h-auto p-10 xl:p-0" style="background-image: url('/_nuxt/assets/media/backgrounds/create-account.png');">
                 <div class="flex items-center justify-between flex-col xl:flex-row">
                     <div class="icon mx-20 mt-4 xl:mt-0">
-                        <font-awesome-icon :icon="['fa', 'check']" />
+                        <fai :icon="['fa', 'check']" />
                     </div>
                     <div class="step-content text-white xl:w-[30vw] w-full my-10 xl:my-0">
                         <h2 class="font-semibold text-3xl">Crearea contului</h2>

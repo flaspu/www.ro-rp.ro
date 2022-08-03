@@ -11,5 +11,5 @@ library.add(fab)
 
 export default defineNuxtPlugin((nuxtApp) => {
   // @ts-ignore
-  nuxtApp.vueApp.component('font-awesome-icon', FontAwesomeIcon)
+  nuxtApp.vueApp.component('fai', FontAwesomeIcon)
 })
